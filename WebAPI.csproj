@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="WebService\ClaOnlineApi.asmx" />
