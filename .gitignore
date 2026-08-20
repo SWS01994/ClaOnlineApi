@@ -1,0 +1,8 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Logs — do not commit runtime logs
+Logs/
+*.log
