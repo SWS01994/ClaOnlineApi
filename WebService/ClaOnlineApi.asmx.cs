@@ -21,14 +21,18 @@ namespace WebAPI.WebService
         private readonly CircularService _circularService;
         private readonly NotificationService _notificationService;
         private readonly QueryService _queryService;
+        private readonly LegislationService _legislationService;
+        private readonly AuthService _authService;
 
         public ClaOnlineApi()
         {
+            _authService = new AuthService();
             _articleService = new ArticleService();
             _caseLawService = new CaseLawService();
             _circularService = new CircularService();
             _notificationService = new NotificationService();
             _queryService = new QueryService();
+            _legislationService = new LegislationService();
         }
     }
 }
